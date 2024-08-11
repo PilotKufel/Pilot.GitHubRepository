@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sklep Internetowy</title>
+    <link rel="stylesheet" href="/store/store.css">
+</head>
+<body>
+    <h1>Witamy w naszym sklepie!</h1>
+
+    <button id="view-cart" onclick="toggleCart()">Zobacz koszyk</button>
+
+    <div id="cart-container" style="display: none;">
+        <h2>Twój koszyk</h2>
+        <div id="cart-items"></div>
+        <button onclick="checkout()">Finalizuj zamówienie</button>
+    </div>
+
+
+    <div id="product-list">
+        <div class="product-item">
+            <img src="/store/images/ikona-facebook.png" alt="">
+        </div>
+        <div class="product-item">
+            <img src="/store/images/ikona-instagram.png" alt="">
+        </div>
+        <div class="product-item">
+            <img src="/store/images/ikona-linked-in.png" alt="">
+        </div>
+        <div class="product-item">
+            <img src="/store/images/bg-logo-mr-brandingstudio-2.png" alt="">
+        </div>
+        <div class="product-item">
+            <img src="/store/images/logo-mr-brandingstudio.png" alt="">
+        </div>
+    </div>
+
+    <script src="/store/js/scripts.js"></script>
+</body>
+</html>
